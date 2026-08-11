@@ -4,101 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>HaniMani</title>
+    <!-- Cloud Console Branding ekranındaki 'App Name' ile BİREBİR aynı olmalıdır -->
+    <title>HaniMani - Kişisel Finans ve Servet Asistanı</title>
 
-    <meta
-        name="description"
-        content="HaniMani, varlık, borç, alacak, gelir, gider, bütçe ve kişisel finans takibini tek bir yerde sağlayan dijital servet asistanıdır."
-    >
-
+    <meta name="description" content="HaniMani; varlık, borç, alacak, gelir, gider ve bütçe takibini tek bir yerde sağlayan dijital servet ve kişisel finans asistanıdır.">
     <meta name="application-name" content="HaniMani">
     <meta name="author" content="Bedijital Hizmetler">
+
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #1e293b; max-width: 900px; margin: 0 auto; padding: 20px; }
+        header { border-bottom: 2px solid #e2e8f0; padding-bottom: 20px; margin-bottom: 30px; }
+        h1 { color: #0f172a; font-size: 2.2rem; margin-bottom: 8px; }
+        h2 { color: #1e293b; font-size: 1.5rem; margin-top: 30px; border-left: 4px solid #2563eb; padding-left: 10px; }
+        .highlight-box { background-color: #f8fafc; border: 1px solid #cbd5e1; border-radius: 8px; padding: 20px; margin: 20px 0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 8px; }
+        a { color: #2563eb; text-decoration: none; font-weight: 600; }
+        a:hover { text-decoration: underline; }
+        footer { margin-top: 50px; padding-top: 20px; border-top: 1px solid #e2e8f0; font-size: 0.9rem; color: #64748b; }
+    </style>
 </head>
 
 <body>
 
 <header>
+    <!-- Google Reviewer'ın ilk gördüğü marka adı -->
     <h1>HaniMani</h1>
-
-    <p>
-        Dijital servet ve kişisel finans asistanı
-    </p>
-
-    <p>
-        HaniMani; varlıklarını, borçlarını, alacaklarını,
-        gelirlerini, giderlerini, bütçeni ve kredi kartlarını
-        tek bir yerde takip etmeni sağlayan kişisel finans
-        uygulamasıdır.
-    </p>
+    <p><strong>Akıllı Kişisel Finans ve Servet Yönetimi Uygulaması</strong></p>
 </header>
 
 <main>
 
 <section>
-    <h2>HaniMani ne işe yarar?</h2>
-
+    <h2>HaniMani Uygulamasının Amacı ve Kapsamı</h2>
     <p>
-        HaniMani, kişisel finans durumunu daha kolay takip
-        edebilmen için geliştirilmiştir.
+        <strong>HaniMani</strong>, kullanıcıların tüm finansal durumlarını bütünleşik bir ekrandan yönetebilmeleri için geliştirilmiş yeni nesil bir dijital servet ve kişisel finans asistanıdır.
     </p>
-
+    <p>Uygulamanın sunduğu temel çözümler:</p>
     <ul>
-        <li>Varlıklarını takip edebilirsin.</li>
-        <li>Borç ve alacaklarını takip edebilirsin.</li>
-        <li>Gelir ve giderlerini takip edebilirsin.</li>
-        <li>Bütçeni ve kredi kartlarını yönetebilirsin.</li>
-        <li>Altın, döviz ve diğer varlıklarını takip edebilirsin.</li>
-        <li>Finansal durumunun genel görünümünü inceleyebilirsin.</li>
+        <li><strong>Varlık ve Portföy Takibi:</strong> Altın, döviz, kripto varlıklar, hisse senedi, BES ve gayrimenkul birikimlerinizi anlık piyasa verileriyle izleme.</li>
+        <li><strong>Borç ve Alacak Yönetimi:</strong> Vadeli alacakların, kişisel borçların ve düğün/nişan takı yükümlülüklerinin takibi.</li>
+        <li><strong>Bütçe ve Gelir/Gider Analizi:</strong> Kredi kartı ekstreleri, taksit projeksiyonları ve dönemsel bütçe hedefleri belirleme.</li>
+        <li><strong>Finansal Okuryazarlık:</strong> Eğitim içerikleri, analiz araçları ve yatırımcı karakter testleri ile finansal farkındalığı artırma.</li>
     </ul>
 </section>
 
-<section>
-    <h2>Google hesabı ve bulut yedekleme</h2>
-
+<!-- Google OAuth Doğrulama Ekibi İçin Özel Açıklama Alanı -->
+<section class="highlight-box">
+    <h2>Google Hesabı Kullanımı ve OAuth İzin Amacı</h2>
     <p>
-        HaniMani temel kullanım için Google hesabı gerektirmez.
-        Kullanıcı isterse Google hesabıyla giriş yaparak
-        bulut yedekleme özelliğini kullanabilir.
+        <strong>HaniMani</strong>, kullanıcı gizliliğini ön planda tutan <em>local-first</em> (öncelikli yerel veri) mimarisine sahiptir. Temel finansal takip özellikleri için Google hesabı zorunlu değildir.
     </p>
-
     <p>
-        Google Drive erişimi yalnızca kullanıcının kendi
-        uygulama verilerini bulut ortamında yedeklemesi ve
-        gerektiğinde geri yüklemesi amacıyla kullanılır.
+        <strong>Google Entegrasyonunun ve İzinlerin Amacı:</strong>
     </p>
-</section>
-
-<section>
-    <h2>Gizlilik</h2>
-
+    <ul>
+        <li><strong>Google OAuth (Giriş Yapma):</strong> Kullanıcıların hesap bütünlüğünü korumak ve güvenli bir oturum açma deneyimi sunmak için kullanılır.</li>
+        <li><strong>Google Drive API (Bulut Yedekleme):</strong> Kullanıcının uygulama içerisinde kaydettiği şifrelenmiş portföy ve bütçe verilerini yalnızca kullanıcının kendi kişisel Google Drive alanında (özel uygulama klasöründe) yedeklemesini ve cihaz değişikliklerinde verilerini geri yüklemesini sağlar.</li>
+    </ul>
     <p>
-        HaniMani'nin veri kullanımı hakkında ayrıntılı bilgi
-        için Gizlilik Politikamızı inceleyebilirsiniz.
-    </p>
-
-    <p>
-       <a href="https://hanimani.sars-grup.com/gizlilik.html">
-            HaniMani Gizlilik Politikası
-        </a>
+        HaniMani, Google kullanıcı verilerinizi üçüncü taraflarla paylaşmaz, satmaz ve reklam amacıyla kullanmaz. Tüm veri erişimleri tamamen kullanıcının açık rızası ve tetiklemesiyle gerçekleşir.
     </p>
 </section>
 
 <section>
-    <h2>Kullanıcı Sözleşmesi</h2>
-
+    <h2>Yasal Metinler ve Gizlilik</h2>
     <p>
-        HaniMani'nin kullanım koşulları hakkında bilgi için
-        Kullanıcı Sözleşmesini inceleyebilirsiniz.
+        Kullanıcı verilerinin işlenmesi, korunması ve kullanım şartları hakkında ayrıntılı bilgi edinmek için aşağıdaki bağlantıları ziyaret edebilirsiniz:
     </p>
-
-    <p>
-        <a href="https://hanimani.sars-grup.com/kullanici-sozlesmesi.html">
-            HaniMani Kullanıcı Sözleşmesi
-        </a>
-    </p>
+    <ul>
+        <li>
+            <a href="https://hanimani.sars-grup.com/gizlilik.html" target="_blank">
+                HaniMani Gizlilik Politikası
+            </a>
+        </li>
+        <li>
+            <a href="https://hanimani.sars-grup.com/kullanici-sozlesmesi.html" target="_blank">
+                HaniMani Kullanıcı Sözleşmesi (Kullanım Koşulları)
+            </a>
+        </li>
+    </ul>
 </section>
 
 </main>
+
+<footer>
+    <p>&copy; 2026 HaniMani - Bedijital Hizmetler. Tüm hakları saklıdır.</p>
+</footer>
 
 </body>
 </html>
